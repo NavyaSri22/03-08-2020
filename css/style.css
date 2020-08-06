@@ -1,0 +1,52 @@
+.card,.google{
+	border:2px solid #ddd;
+	background-color: #f4f4f4;
+	text-align: center;
+	width: 300px;
+	margin:5px;
+}
+a{
+	color: #c45e45;
+}
+img{
+	width: 300px;
+}
+body{
+	background-image: url("images/pic.png");
+	background-repeat: no-repeat;
+}
+.flex-parent{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+*{
+	background-color: #c45e45;
+}
+/*mobile queries*/
+@media screen and (max-width: 425px){
+.card,.google{
+	border: 2px solid #ddd;
+	background-color: yellow;
+	text-align: center;
+	width: 300px;
+	margin: 5px;
+}
+a{
+	color: green;
+}
+img{
+	width:150px;
+}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+.card,.google{
+	border: 2px solid #ddd;
+	background-color: green;
+	text-align: center;
+	width: 300px;
+	margin: 5px;
+}
+}
